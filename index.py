@@ -12,6 +12,7 @@ def startApp():
         startApp()
     elif(ch==2):
         Driver.displayChoice()
+        input()
         startApp()
     elif(ch==3):
         print("Thank you....\n")
@@ -19,4 +20,5 @@ def startApp():
     else:
         print("Wrong input...!\nPlease Select a valid choice")
         startApp()
+
 startApp()
